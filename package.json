@@ -1,0 +1,22 @@
+{
+  "name": "uploadpost-aws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.8",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "file-type": "^19.6.0",
+    "filetype": "^0.1.0",
+    "mongoose": "^8.8.3",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.33.5",
+    "uuid": "^11.0.3"
+  }
+}
