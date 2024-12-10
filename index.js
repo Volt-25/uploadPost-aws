@@ -111,6 +111,10 @@ app.post('/api/athletes/:athlete_id/posts', upload.single('media'), async (req, 
     }
 });
 
+app.get('/', (req, res) => {
+    res.json({ message: 'Hello World' });
+});
+
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);
 });
